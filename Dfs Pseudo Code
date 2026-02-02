@@ -1,0 +1,8 @@
+DFS (Depth-First Search) – Pseudocode:
+DFS(Graph, startNode):
+    mark startNode as visited
+    print startNode
+
+    for each adjacentNode of startNode:
+        if adjacentNode is not visited:
+            DFS(Graph, adjacentNode)
